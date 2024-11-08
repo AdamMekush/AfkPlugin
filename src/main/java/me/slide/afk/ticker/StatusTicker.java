@@ -2,8 +2,8 @@ package me.slide.afk.ticker;
 
 import eu.decentsoftware.holograms.api.DHAPI;
 import eu.decentsoftware.holograms.api.holograms.Hologram;
-import me.slide.afk.AfkPlugin;
 import me.slide.afk.AfkManager;
+import me.slide.afk.AfkPlugin;
 import me.slide.afk.hologram.HologramUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitRunnable;

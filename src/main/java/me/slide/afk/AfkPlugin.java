@@ -1,6 +1,9 @@
 package me.slide.afk;
 
-import me.slide.afk.event.*;
+import me.slide.afk.event.PlayerDeathListener;
+import me.slide.afk.event.PlayerJoinListener;
+import me.slide.afk.event.PlayerMoveListener;
+import me.slide.afk.event.PlayerQuitListener;
 import me.slide.afk.ticker.StatusTicker;
 import org.bukkit.plugin.java.JavaPlugin;
 
