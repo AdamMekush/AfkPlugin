@@ -1,0 +1,4 @@
+afk:
+  timeout: 300000
+  title:
+      - "AFK"

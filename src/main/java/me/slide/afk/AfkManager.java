@@ -39,6 +39,6 @@ public class AfkManager {
     }
 
     public Map<UUID, Long> getAfkPlayers(){
-        return lastActions.entrySet().stream().filter(entry -> entry.getValue() + 300000 < System.currentTimeMillis()).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return lastActions.entrySet().stream().filter(entry -> entry.getValue() + AfkPlugin.getInstance().getConfig().getLong("afk.timeout") < System.currentTimeMillis()).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }
