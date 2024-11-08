@@ -1,0 +1,13 @@
+name: AfkPlugin
+version: '1.0.0'
+main: me.slide.afk.AfkPlugin
+api-version: '1.20'
+
+dependencies:
+  server:
+    DecentHolograms:
+      load: AFTER
+      required: true
+    PlaceholderAPI:
+      load: AFTER
+      required: true
